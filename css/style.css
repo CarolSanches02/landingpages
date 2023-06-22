@@ -316,13 +316,10 @@ footer span {
     justify-content: space-between;
   }
   .conteudo-info {
-    align-items: center;
-  }
-  .conteudo-endereco {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 660px;
+    height: 480px;
     justify-content: space-between;
   }
   .conteudo-endereco h2 {
