@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+  body {
+    font-family: "Bebas Neue";
+  }
+
   .menu-header {
     display: none;
     flex-direction: column;
@@ -31,7 +35,11 @@
     height: unset;
   }
   .conteudo-info {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 480px;
+    justify-content: space-between;
   }
   .conteudo-sobre {
     flex-direction: column;
